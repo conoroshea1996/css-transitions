@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    height: 100vh;
+    width: 100%;
+}
+.grid > div{
+    background: red;
+    border: solid 2px lightblue;
+    opacity: 0;
+}
+
